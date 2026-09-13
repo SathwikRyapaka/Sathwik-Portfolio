@@ -1,4 +1,4 @@
-﻿/* ==========================================================================
+/* ==========================================================================
    Sathwik Ryapaka Portfolio — Editorial Stone & Amber Design System
    Inspired by Marcus Vance monograph aesthetic
    ========================================================================== */
@@ -371,3 +371,86 @@ textarea.form-input { resize: vertical; }
 
 /* Divider */
 .divider { height: 1px; background: var(--border-stone); }
+
+/* ---- Mobile Responsive Enhancements ---- */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1.25rem;
+  }
+
+  .section {
+    padding: 3.5rem 0;
+  }
+
+  .display-hero {
+    font-size: 2.15rem;
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+  }
+
+  .headline-lg {
+    font-size: 1.6rem;
+    line-height: 1.25;
+  }
+
+  .headline-md {
+    font-size: 1.3rem;
+  }
+
+  .body-lg {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  .card-editorial {
+    padding: 1.5rem 1.25rem !important;
+    border-radius: var(--radius-lg);
+  }
+
+  .modal-overlay {
+    padding: 0.75rem;
+  }
+
+  .modal-content {
+    border-radius: var(--radius-lg);
+    max-height: 94vh;
+  }
+
+  .modal-header {
+    padding: 1.25rem 1.25rem 1rem;
+  }
+
+  .modal-body {
+    padding: 1.25rem;
+    gap: 1.25rem;
+  }
+
+  .toast-container {
+    bottom: 1.25rem;
+    right: 1.25rem;
+    left: 1.25rem;
+  }
+
+  .toast {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .display-hero {
+    font-size: 1.85rem;
+  }
+
+  .headline-lg {
+    font-size: 1.45rem;
+  }
+
+  .btn {
+    font-size: 0.65rem;
+  }
+}

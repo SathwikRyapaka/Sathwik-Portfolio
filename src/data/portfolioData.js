@@ -464,3 +464,46 @@ export const educationData = [
     ],
   },
 ];
+
+export const hackathonsData = [
+  {
+    id: "demux-3",
+    title: "DEMUX 3.0 — 24-Hour National Hackathon",
+    award: "1st Prize (Track-Wise Winner)",
+    awardBadge: "1st Place 🏆",
+    track: "Open Innovation Track",
+    team: "Team Alpha (BVRITN)",
+    organizer: "CSBS Department @ BVRIT in collaboration with TCS",
+    partner: "Tata Consultancy Services (TCS) & YZ",
+    date: "13th – 14th August 2026",
+    duration: "24-Hour Non-Stop Hackathon",
+    summary:
+      "Secured 1st Prize in the Open Innovation Track at DEMUX 3.0, a premier 24-hour National Level Hackathon organized by CSBS at B V Raju Institute of Technology in collaboration with Tata Consultancy Services (TCS).",
+    description:
+      "Competed in an intensive 24-hour national hackathon, conceptualizing, architecting, and prototyping an innovative software solution from scratch under tight time constraints. Successfully demonstrated live functionality, robust software architecture, and practical business impact to an expert evaluation panel comprising TCS consultants and senior department faculty.",
+    highlights: [
+      "Awarded 1st Prize in the Open Innovation category out of competitive national hackathon teams.",
+      "Architected, coded, and deployed a functional full-stack solution within a 24-hour sprint.",
+      "Presented live pitch and product walkthrough to TCS industry judges and academic conveners.",
+      "Demonstrated rapid cross-functional collaboration, technical resilience, and presentation excellence.",
+    ],
+    techStack: ["Full-Stack Engineering", "React.js", "Node.js", "Rapid Prototyping", "Team Alpha"],
+    images: [
+      {
+        url: "/assets/hackathons/demux_award_stage.jpg",
+        title: "Stage Award Presentation",
+        caption: "Receiving the 1st Prize award & certificate from TCS Chief Guests and BVRIT Conveners",
+      },
+      {
+        url: "/assets/hackathons/demux_certificate.jpg",
+        title: "Official 1st Prize Certificate",
+        caption: "Official Certificate of Appreciation for securing 1st Prize in DEMUX 3.0 National Hackathon",
+      },
+      {
+        url: "/assets/hackathons/demux_team_celebration.jpg",
+        title: "Team Alpha Celebration",
+        caption: "Team Alpha celebrating with the winner certificates on campus after the 24-hour sprint",
+      },
+    ],
+  },
+];

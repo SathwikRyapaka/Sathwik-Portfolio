@@ -249,6 +249,10 @@ export default function Projects() {
           .proj-content { padding: 3rem !important; }
           .proj-hdr { flex-direction: row !important; align-items: flex-end !important; justify-content: space-between; }
         }
+        @media (max-width: 768px) {
+          .proj-content { padding: 1.75rem 1.25rem !important; }
+          .proj-image { padding: 1.25rem 1rem !important; min-height: 240px !important; }
+        }
         .proj-card:hover .proj-img { transform: scale(1.02) !important; }
         .case-study-link:hover { color: var(--amber-700) !important; border-bottom-color: var(--amber-700) !important; }
         .github-link:hover { color: var(--amber-700) !important; }

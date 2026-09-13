@@ -48,7 +48,7 @@ export default function Footer() {
               INDEX DIRECTORY
             </div>
             <nav style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem 1.75rem', fontSize: '0.8125rem' }}>
-              {['About', 'Skills', 'Projects', 'Experience', 'Certifications', 'Education', 'Contact'].map((name) => (
+              {['About', 'Skills', 'Projects', 'Experience', 'Hackathons', 'Certifications', 'Education', 'Contact'].map((name) => (
                 <a
                   key={name}
                   href={`#${name.toLowerCase()}`}

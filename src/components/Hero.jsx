@@ -331,6 +331,19 @@ export default function Hero({ onContactClick }) {
             grid-template-columns: repeat(2,1fr) !important;
           }
         }
+        @media (max-width: 480px) {
+          .profile-artwork-container {
+            max-width: 280px !important;
+            height: 280px !important;
+          }
+          .profile-portrait-frame {
+            width: 195px !important;
+            height: 195px !important;
+          }
+          .hero-main-grid {
+            gap: 2.25rem !important;
+          }
+        }
       `}</style>
     </section>
   );

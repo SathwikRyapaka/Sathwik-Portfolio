@@ -16,7 +16,7 @@ export default function Education() {
           <h2 className="headline-lg reveal">Education &amp; Academic Achievements</h2>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(360px,1fr))', gap: '1.5rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px,1fr))', gap: '1.5rem' }}>
           {educationData.map((edu, idx) => (
             <div
               key={idx}
